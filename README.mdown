@@ -1,0 +1,9 @@
+Math and Other Ruby Examples
+===
+
+Boy Scout Troop 534 "Hey!" and Explorer Unit 2534 built a Linux-based
+computer lab at St. Mark United Methodist Church.
+
+Next step: Having fun with Ruby!
+
+
