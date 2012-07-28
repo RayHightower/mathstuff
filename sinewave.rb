@@ -5,13 +5,16 @@ def make_stars(indent)
 end
   
 
-(1..200).each do |counter|
-  angle = counter*Math::PI/100
-  indent = 40 + 40*Math.sin(angle)
-  make_stars indent
-  puts 'sample phrase'
+loop do
+  (1..200).each do |counter|
+    angle = counter*Math::PI/100
+    indent = 40 + 40*Math.sin(angle)
+    make_stars indent
+    puts 'sample phrase'
+  end
+
+  puts "\n\nEnd of loop!\n\n"
 end
 
-puts "End of loop!"
 
 
